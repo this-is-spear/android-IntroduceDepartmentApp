@@ -1,5 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
 
 ## 모바일 프로그래밍
 
@@ -57,38 +55,6 @@
 
    - 학과 홈페이지에 가장 최근에 올라온 내용으로 공지사항 만들기
 
-
-
-** 이번 과제는 여러개의 액티비티(페이지)를 만들고 각 페이지들간의 이동을 어떻게 할 것인지에 주안점을 두어 수행하면 됨
-
-** 제출 방법은 이전 과제와 마찬가지로 xml, java, 결과캡춰화면(5개의 액티비티). 결과 동영상(액티비티들간의 이동, 2분이내)
-
-
-
-<div class="mermai">
-graph LR
-	subgraph main-page
-		id1(학과 소개)
-		subgraph Image-Button
-            Button1
-            Button2
-            Button3
-		end
-	end
-	subgraph 교수진소개
-		Button1 --> id2(소개 페이지)
-	end
-	subgraph 학생커뮤니티
-		Button2 --> id3(소개 페이지)
-		Button4
-	end
-		subgraph 학생커뮤니티소개
-		Button4 --> id4(소개 페이지)
-	end
-	subgraph 공지사항
-		Button3 --> id5(공지사항)
-	end
-</div>
-
+<img src="./mermaid221306.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
 
