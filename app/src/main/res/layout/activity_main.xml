@@ -10,70 +10,92 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
         android:text="IT융합응용공학과"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/ButtonPage1ToPage2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="324dp"
-        android:text="교수 소개 화면 이미지"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="608dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <EditText
+    <TextView
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="https://cms.pknu.ac.kr/itcae/main.do"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/ButtonPage1ToPage3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="20dp"
-        android:text="학생 Community"
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="360dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="IT융합응용공학과는 디지털 기술의 발전에 따라 기존 정보기술이 IT에 국한된 세부 전문기술영역에서 다양한 분야의 서비스 및 인프라 기술로 확대됨에 따라, 여러 가지 전문 응용분야와 융합할 수 있는 창의적 전문 IT 인력을 양성하는데 그 목표를 두고 있다. 이를 위해 기존 컴퓨터 분야의 핵심 기초 분야는 물론, 타 분야와 연계 가능한 응용 분야에 활용될 수 있는 창의성과 현장 적응력이 뛰어난 인재를 양성하고, 글로벌 추세에 경쟁력을 지닌 참여, 공유, 개방의 능력을 지닌 지성인 및 교양인을 육성한다"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ButtonPage1ToPage2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
-        android:id="@+id/ButtonPage1ToPage5"
+    <TextView
+        android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="91dp"
+        android:text="교수 소개 화면 이미지"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
         android:text="공지사항"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonPage1ToPage3" />
 
+    <ImageButton
+        android:id="@+id/ButtonPage1ToPage2"
+        android:layout_width="73dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ButtonPage1ToPage3"
+        android:layout_width="73dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ButtonPage1ToPage52"
+        android:layout_width="73dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:srcCompat="@mipmap/ic_launcher" />
+
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="내가 생각하는 학과 정보"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="81dp" />
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="학생 Community"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonPage1ToPage2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
